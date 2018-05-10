@@ -189,6 +189,7 @@ from .ceskatelevize import (
     CeskaTelevizeIE,
     CeskaTelevizePoradyIE,
 )
+from .chabadorg import ChabadOrgIE
 from .channel9 import Channel9IE
 from .charlierose import CharlieRoseIE
 from .chaturbate import ChaturbateIE
