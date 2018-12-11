@@ -1,3 +1,6 @@
+# https://www.chabad.org/therebbe/livingtorah/player_cdo/aid/1900564/jewish/A-Symbiotic-People.htm
+# https://www.chabad.org/multimedia/media_cdo/aid/3963304/jewish/Do-You-Believe-in-Water.htm
+
 # coding: utf-8
 from __future__ import unicode_literals
 
@@ -6,7 +9,7 @@ import re
 from .common import InfoExtractor
 
 class ChabadOrgIE(InfoExtractor):
-    _VALID_URL = r'https?://(?:www\.)?chabad\.org/multimedia/media_cdo/aid/(?P<id>[0-9]+)/[0-9a-zA-Z/]+'
+    _VALID_URL = r'https?://(?:www\.)?chabad\.org/[a-z_/]+/aid/(?P<id>[0-9]+)/[0-9a-zA-Z/]+'
     _TEST = {
         'url': 'https://www.chabad.org/multimedia/media_cdo/aid/3963304/jewish/Do-You-Believe-in-Water.htm',
         'md5': '83b947c4cc4c7e8f03d5f5939d060d99',
